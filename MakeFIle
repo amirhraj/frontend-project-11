@@ -1,4 +1,4 @@
-develop:
+startserver:
 	npx webpack serve
 
 install:

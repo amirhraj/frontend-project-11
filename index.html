@@ -2,12 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>RSS-поток</title>
 </head>
 <body>
-    <script type="module" src="src/index.js"></script>
+    <h1>Добавить RSS-поток</h1>
+    <form>
+      <label>
+        URL:
+        <input id="input"
+        name="urlInput"
+        type="text"
+        autofocus
+        requiered
+        class="form-control"
+        placeholder="введите url"
+        aria-label="url">
+      </label>
+      <button id="addbutton" class="btn btn-primary" type="submit">Добавить</button>
+    </form>
+    <script src="src/index.js"></script>
     
 </body>
 </html>
